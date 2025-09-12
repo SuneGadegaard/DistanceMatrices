@@ -1,7 +1,19 @@
 # DistanceMatrices
 Helper class for generating distances matrices for road networks based on open route service.
 
-# Example
+## API Key Requirement
+
+This project requires an **OpenRouteService API key** to function.
+
+1. Go to [openrouteservice.org](https://openrouteservice.org/).  
+2. Create a free account (or sign in if you already have one).  
+3. Navigate to your dashboard and generate an API key.  
+4. Use this key when running the code.
+
+
+## Example
+The following provides an example for how to use the class for generating distance and duration matrices
+
 ```python
 from DistanceMatrixMaker import DistanceMatrix
 import pandas as pd
