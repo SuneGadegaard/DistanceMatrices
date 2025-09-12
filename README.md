@@ -2,7 +2,7 @@
 Helper class for generating distances matrices for road networks based on open route service.
 
 # Example
-```
+```python
 from DistanceMatrixMaker import DistanceMatrix
 import pandas as pd
 # Create an instance of the DistanceMatrix class
